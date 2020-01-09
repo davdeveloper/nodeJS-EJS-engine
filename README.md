@@ -12,3 +12,15 @@ app.get('/', function(req, res) {
 ```
 Create your file in views/pages/ ... example.ejs
 
+views/pages/index.ejs file which include the header, footer and the content
+```
+<header>
+    <%- include('../partials/header') -%>
+</header>
+
+<%- include(template) -%>
+
+<footer>
+    <%- include('../partials/footer') -%>
+</footer>
+```
