@@ -10,3 +10,5 @@ app.get('/', function(req, res) {
     });
 });
 ```
+Create your file in views/pages/ ... example.ejs
+
